@@ -1,0 +1,478 @@
+
+1/4/2020 - 10/6/2020
+Aim: To be very comfortable with Springboot, Java, Spring Security, Tests, Microservices and SQL
+Side aim: Improve in React, and responsive design
+
+Day 1 :
+ Read up on sending email with springboot
+ tried to implement sending mail functionality in MyProjectManager app without success
+
+Day 2:
+ Successfully implemented sending email functionality also learnt how to use JS to access 
+query parameters.
+
+Day 3:
+Worked on the CoronaVirus tracker app with springboot and thymeleaf 70% done
+Learnt mysql, learnt more about the IN and LIKE operators.
+
+Day4: 
+Had a bug, mySQL server stops working, did a lot of troubleshooting and finally uninstalled and reinstalled it.
+
+Day 5:
+Had a bug on forgot-password was able to fix it and roughly implemented the forgot password functionality.
+Also tried to refactor the forgot password functionality, half way done.
+
+Day 6: 
+Learnt how to connect java app to database, learnt sparingly about multithreading in Java.
+Implemented the Array Data structure in Java, understood the bubble sort concept better.
+
+Day 7:
+Refactored forgot-password functionality successfully, added spinner, footer to ui and began in depth study on
+spring security.
+
+Day 8:
+Implemented bubble sort, selection sort and binary search, made progress with understanding spring security.
+
+Day 9:
+Learnt more about roles and permissions based authorization.
+
+10/4/2020
+Day 10:
+wrapped up spring security from amigos code, learnt more about jwt implementation.
+
+Day 11:
+Implemented Binary search with recursion and partially implemented Dynamic Array 
+
+Day 12:
+Began work on callicoder's polls application project, understood file structure and data modelling better
+
+Day 13:
+Continued working on the project, still having some issues with role based authentication
+
+Day 14:
+Learnt more about role based authentication with mysql and successfully implemented it
+
+Day 15:
+Made progress with the part3 aspect of callicoder, started learning nodejs too and it was fun.
+
+Day 16:
+Learnt more of nodejs, learnt how client interract with the browser, how to do custom routes with
+node and how to serve static files, learnt about express too.
+
+Day 17:
+Finished nodejs for beginners by net ninja, started data modelling for visitor's management system.
+Also started learning nodejs from Jonas tutorial.
+
+Day 18:
+Learnt more about nodeJs, how it works under the hood, how nodejs is built around callbacks,
+how the event loop works and how it pushes code into the thread pool. Also learnt about Promises
+in great detail, how to consume Promises and build them. Learnt about async/await as well.
+
+Day 19:
+Began work on Visitor Management System, made good progress as I was able to understand more about
+data modelling.
+
+20/4/2020
+Day 20: 
+Did a lot today, created visitor's api, its entities and functionalities, created admin entity and was able
+to implement the admin registration. Started work on the login
+
+Day 21:
+Made good progress on the visitor management application as I was able to implement authentication and 
+authorization for the app.
+
+Day 22: 
+Studied a lot on role-based authorization, hope to implement it on the visitor management app tomorrow 
+
+Day 23:
+I was able to implement role-based authorization in the visitor management application after encountering 
+many bugs, it was such a wonderful achievement for me since it is the first time I am really working on 
+role-based authorization.
+
+Day 24:
+Fixed some bugs on registration of admin with an email that is already in use. I also implemented dynamically
+the 'signedBy' functionality. I also started the Natours project with node, understood more about apis and 
+how they should be structured.
+
+Day 25:
+Finished section 6 of Jonas NodejS course which is about apis, crud operation, middlewares and file
+structuring. I also began to learn about mongo db which is a document-based database. It's a noSQL
+db that uses collections and documents to store data.
+
+Day 26:
+Wrapped up introduction to mongodb, the section 7 of Jonas'course. I was able to build a mongodb
+ in the cloud and interracted with it. Also began Mongoose on a lighter note.
+
+Day 27:
+Made good progress with the front end of the Visitor Management Application using React and Redux.
+I was able to successfully create a number of Admin actions such as loging in, registering visitor,
+and fetching visitors. I couldn't implement the jwt feature on the front end, should do that tomorrow. 
+
+Day 28:
+Built the dashboard and made a lot of ui changes, implemented logout, signout visitor,
+and was able to implement jwt on the ui.
+
+Day 29:
+I was able to implement fetching from the database and rendering on the ui, had a 
+bug earlier on but was able to identify and resolve it. 
+
+30/04/2020
+Day 30: 
+I was able to implement a number of functionalities both on front end and back end.
+Made progress in the visitor management system, implemented the search visitor by phone
+feature with exceptions, was able to implement admin registration, secured routes, and 
+made progress on the ui.
+
+Day 31:
+Read up on CSS from ground up, also read and understood more about java date api using LocalDate
+which is a better api than the new Date() which is not thread safe. I also tried implementing the
+search visitors by dateRange, couldn't finish it.
+
+Day 32:
+I was able to implement searching of visitors from a particular date to a particular date using
+custom query(@Query annotation), I also handled all the possible exceptions that could arise.
+
+Day 33:
+Read up on Pagination with springboot and react all through, I was able to implement pagination on the
+backend and tested with postman and it works fine, what remains is to implement it in react.
+
+Day 34:
+Yesterday wasn't much productive, I couldn't implement pagination on front end as I am still reading up
+many resources and trying to understand it before implementation.
+
+Day 35:
+Today was very productive as I hit two milestones; implemented pagination on front end as well as active
+navigation link using NavLink activeClassName.
+
+Day 36:
+This was a bug fix day, I fixed the bug on floating footer on the ui as well as tried to fix the datetime issue
+on the backend and front end, wasn't successful in this quest, still making research on this one.
+
+Day 37:
+I was able to implement the date time functionality on the ui, I also began work on
+refactoring the tag generation and signing out to mimic the real world scenario.
+
+Day 38:
+I was able to implement the tag generation and signing out to mimic the real world scenario, I was
+so happy about this implementation as it shows I am really growing in understanding Java and Spring boot.
+I also began learning data structures and algorithm with JS from Colt Steele and I must admit, I learnt
+a great deal in the first few lectures I have had, currently in section 5 - problem solving patterns.
+I also began learning how to write Spring boot tests unit JUnit and Mockito.
+
+Day 39:
+I was able to write some test cases but didn't fully understand it. Implemented the functionality that ensures
+if a visitor hasn't been signed out he can't be registered.
+
+11/5/2020
+Day 40:
+refactored tag generation, enhanced the ui of vms and then added pagination on pages
+that need it
+
+Day 41:
+Refactored plotting of graphs and made the ui of vms more responsive.
+
+Day 42:
+Did lots of testing and fixed lots of bugs and resolved merge conflicts
+
+Day 43:
+Refactoring the css to ensure the ui looks good on all screen sizes, also did a lot
+of testing.
+
+Day 44:
+Hurray! App was hosted on heroku, this calls for celebration eventhough there are bugs to be fixed.
+It was an enervating and brain tasking journey so tomorrow would be a day off coding.
+
+Day 45:
+Took today off coding to refresh my mind
+
+Day 46:
+Began to read up on how to fix the bugs on our deployed app
+
+Day: 47
+Read up on Java streams and optional.
+
+Day: 48
+Tried to fix the footer bug and centering forms without success.
+
+Day 49:
+Learnt about the singleton design pattern that allows only the creation of one object throughout
+the application's lifecycle. Also took the spring and hibernate course for beginners and learnt 
+a great deal. Took algorithms on codewars, I was able to solve one and not able to solve the other.
+This was a very productive day.
+
+21/5/2020
+Day 50:
+I was able to finish Spring Boot and hibernate course and learnt a great deal from it. 
+I was able to solve the clerk problem on codewars.
+I also learnt about Unit testing and integration test. Unit testing has to do with
+testing specific sections of your code, it is faster and self contained and has nothing to do
+with database. Integration tests, however, test interraction between components, it is slower
+since it involves database. Functional testing is when you are testing an application live.
+
+Day 51:
+Understood testing better and began to learn Docker which is a technology that helps our 
+application to run anywhere as it houses everything the application needs to run.
+
+Day 52:
+Got a mail for a Java backend role at ren money so I began to practice interview questions online
+
+Day 53:
+Practiced more interview questions.
+
+Day 54:
+More practice followed before the interview, had the interview and it was awesome.
+I am very hopeful on this.
+
+Day 55:
+Started working on responsive design with css, I was able to build the layout and made progress.
+
+Day 56: 
+I was able to add font awesome icons and used rhyming colors on the layout
+
+Day 57: 
+Applied media query to the landing page and read a lot about media queries, how em is favoured
+over rems in media query. Also began to learn about react hooks.
+
+Day 58:
+I learnt about spring cloud using eureka for registering and service discovery. So instead of having
+our client calling the api directly we have the server we can talk to and the server calls the end point,
+this promotes loose coupling and protects our system in case there is a break down of any sort as our server
+goes into self-preservation mode to ensure our services are protected.
+
+Day 59:
+I learnt about config server that helps us to have global settings for external properties. I was able to 
+understand the workflow. I also solved a challenge on codewars.
+
+30/05/2020
+Day 60: Started combining videos and articles to better understand spring security, so I started from scratch
+using articles to better understand the whole picture. Tried my hands on a coding challenge, couldn't solve it yet.
+
+Day 61:
+Learnt a lot today  and it was pretty much a fulfilling day. I was able to design the "Prominent Code" responsive website, 
+in the process I learnt how to create the hamburger menu with css using the checkbox hack. I have pushed this project
+to my github page.I was able to solve a coding challenge on codewar as well.
+
+Day 62:
+Went back to freecodecamp to begin work on my responsive web design projects which I have abandoned for close to a year
+now. I was able to complete two out of the five projects yesterday. In the evening I got
+a regret mail for the interview I had last week Monday, it was a little bit demoralizing because I felt the interview went
+well. Anyways, I didn't allow it deter me as I continued to code until mid night.
+
+Day 63:
+I was able to finish the third responsive web design project on freecodecamp, started the fourth one.
+I also began to learn about docker, installed and ran docker on my machine successfully after many
+issues along the way. I must say my troubleshooting skills have really improved.
+
+Day 64:
+Learnt some docker commands and understood how to create a Dockerfile, build a docker image and run the container which is a
+running instance of a docker image. Also learnt about Maven which is a build automation tool for downloading dependencies and for
+compiling our code to a jar file. I also learnt a little about CI/CD and setting up a pipeline even if i didn't fully understand
+the latter.
+
+Day 65:
+It was a very productive day, I was able to fix most of the bugs in the VMS app I deployed
+some two weeks ago, I removed the footer and made the application much more responsive.
+I also continued my learning on CI/CD, I got to know that the Continuous Integration server
+constantly watches for changes in the repository. Once there is a change, it collects the 
+code, builds and tests it, if there is no error, it integrates it into the code base ready for 
+deployment, otherwise, it gives an error feedback to the team.
+
+Day 66:
+I learnt about aggregate functions in mysql and had a better understanding about using the 
+GROUP BY clause. Aggregate functions are used to manipulate data from a table like to find the
+sum, average, maximum etc. But, when you are bringing in another column then you have to use
+the GROUP BY clause. I also spent some time trying to have a deeper understanding of roles
+and permissions in springboot.
+
+Day 67:
+I began to learn about the spring framework which the springboot framework is an extension of,
+I learnt about the IoC container, dependency injection and how the spring framework is sort of
+a framework of frameworks as it supports other frameworks such as struts, hibernate etc.
+I was also able to solve codewars enough is enough challenge.
+
+Day 68:
+I began to work on the Banka application after gathering many resources and reading extensively.
+I also took tests on codln,html, css and java. Passed html and css failed java. 
+
+Day 69:
+I got two invites to take an interview test from two different companies so majority of my day was spent 
+researching questions and algorithms online. I took a lot of Java online test and learnt a lot.
+I also created the Model, Repository, Service and Controller for the Banka Application.
+
+09/06/2020
+Day70:
+After so much preparation for the interview test I didn't take any because none of them was Java related when
+I clicked the test link. I also continued the development of Banka but had lots of bugs in the application, 
+I wasn't able to fix them.
+
+Day 71:
+I was able to fix all of the bugs I had yesterday and also learnt how to configure xampp to listen on a different port.
+The registration and login aspect were done yesterday but have not been properly tested out. Yesterday was a little
+bit productive, I should say!
+
+Day 72:
+Properly tested the registration and login aspect of the banka application and they worked fine. I also learnt more
+about how Java works and about OOPs. Went back to edabit and solved some algorithms there.
+
+Day 73:
+Yesterday was pretty productive and I must say that I am really improving as a programmer.
+I was able to implement twilio notification for users when they register, telling them their
+registration was successful and displaying their account number. I was also able to implement 
+account balance for user with BigDecimal data type.
+
+Day 74:
+Yesterday was very interesting for me, took some break and came back to implement the transfer-fund
+functionality by the user. Once the user transfers fund successfully both the sender and the receiver
+get updated about the transfer and their new account balance is updated. They were implemented but have
+not been fully tested.
+
+
+Day 75:
+The transfer-fund functionality was tested and had few bugs which I fixed. But now it works just fine.
+I was able to begin work on admin and cashier entities but later found out since both cashier and admin
+have very similar modelling, I'd just use same entity and assign role during registration.
+
+Day 76:
+I hit a snag yesterday on the Banka application and later found out after asking questions from experienced
+people on the way forward and the solution they proferred implies I have to start from scratch, my database
+design was not good, I should have used a common user details table and not one for admin and another for
+users. So I stopped the project temporarily and went to freecodecamp to continue with my front end challenges.
+I was able to finish the tech document project and began working on the last one which is the portfolio project.
+
+Day 77:
+I was able to finish the freecodecamp frontend challenge by building a portfolio project, then I learnt some css tricks;
+how to make a comment div and how to style an input box when focused. 
+I also began to draw the schema of how the Banka app will look like after having a better design idea.
+
+Day 78: 
+I was able to successfully complete the tweaks as regards the new design, tweaking up code here and there and then deleting 
+files, I was able to get the registration page working and everything looks fine barring serious testing.
+I also took out time to learn about react context API and hooks.
+
+Day 79:
+I spent the whole the day trying to fix login bugs after re-designing the entity relationship without success.
+
+19/06/20
+Day 80:
+I was able to fix the login bugs successfully, I also implemented other functionalities -make transfer, make deposit etc.
+I also watched a little bit of Nelson's tutorial on Springboot and react where he uses Amazon services.
+
+Day 81:
+I was able to successfully test the implemented functionalities and fixed bugs. 
+
+Day 82:
+I learnt more about unit testing and was able to successfully write a test for the application, I hope to write more.
+
+Day 83:
+Didn't make much progress, still reading lots of articles to understand writing of unit tests.
+
+Day 84:
+I got a mail I'd be having an interview with seamfix, practiced a lot and also wrote six tests for my controller.
+
+Day 85:
+Prepared all day for the interview
+
+Day 86:
+Finally had the interview, not with seamfix(seamfix said they'd reschedule, didn't hear from them again) but another company 
+called Trium Networks and it was good, I hope it turns out well.I used the rest of the day to improve on my css skill.
+
+Day 87:
+As a preparation for my front end for the Bank Application, I practiced and improved on my react skills all day. 
+
+Day 88:
+I practiced all day on react, I understood react better now, it is just a set of reusable components that sometimes hold
+state, this state determines what gets rendered depending on the logic involved.
+
+Day 89:
+I practiced more react, working with apis and I was able to build a food recipe app, practiced some css as well.
+
+29/06/20
+Day 90:
+Began work on the Banka ui, created the repository and did a little work on it
+
+Day 91
+30/06/20:
+I was able to create an awesome login page and began work on the registration page, it was fun and interesting as my
+ui skills are improving by the day.
+
+Day 92:
+This was an interesting day as I learnt a lot on the react side of things.
+I sparingly learnt how to do client-side validation eventhough I have not implemented it yet, I learnt about the 
+number input element, I also learnt about the maxLength and minLength attributes of input element.
+I was able to finish designing registration, forgot password and transfer fund pages. It was an interesting experience
+today and I look forward to having days like this.
+
+Day 93:
+This was another awesome day as I was able to confront a number of my fears, I created my own custom spinner for the app, 
+I made api calls successfully, tested registration voraciously and fixed some bugs. I also began to create the dashboard layout.
+
+Day 94:
+What a day! I put the almighty dashboard to bed apart from the chart that should be on the dashboard, everything else is well done.
+I learnt a great deal today, I also implemented the sidedrawer and use react hooks to  cause the sliding effect to take
+place as the hamburger opens and closes up.
+
+Day 95: Went for an emergency interview, still a productive day, interview went well and I was able to do the dreaded client side 
+validation on signup and change pin.
+
+Day 96:
+I was able to create the user-guide, and added other components like reset-password, forgot-pin etc. I didn't do so much yesterday.
+
+Day 97:
+Everyday has been exciting so far, I was able to implement disabling the input fields when the submit button is pressed.
+I also implemented change pin and some other components. I switched to back end and was able to implement forgot password 
+and change password functionalities.
+
+Day 98:
+I was able to test the reset-password and change password functionalities to reflect the ideal way things should work. 
+I had issues sending mail but later resolved it. 
+
+Day 99:
+I had an interview with gidi mobile which went really well, I was also able to refactor register user functionality that 
+sends mail to a user upon signup, I created pinReset entity that enables users to be able to create new pins if they forgot 
+the existing one, I also created changePin functionality, so a user who knows his/her existing and wants change it without 
+resetting it.
+
+06/10/2020
+Day 100!!!
+Hurray and I came to the end of my first documented 100 days of code!
+Unfortunately, yesterday I had bugs about sending email to registered users for confirmation, I kept getting connection 
+refused error, battled hard to fix it to no avail, this was a functionality that worked few days ago. Hopefully I'll get 
+them fixed soon.
+
+
+Wow!!! It was really an interesting ride and I learnt a great deal about documenting your progress as it helps you maintain 
+discipline and focus.
+
+Let's have a look at the aim of this 100 days of code again as I will copy and paste from the very top of this file down below:
+
+1/4/2020 - 10/6/2020
+Aim: To be very comfortable with Springboot, Java, Spring Security, Tests, Microservices and SQL
+Side aim: Improve in React, and responsive design
+
+Que: Was I able to achieve all? 
+Ans: No! But I achieved a great deal, I became very comfortable with Springboot, Java, Spring Security and SQL. I'm also very 
+comfortable with React and Responsive Design. I really need to improve on writing Tests but I have suspended microservices for 
+now until I am very comfortable with Spring as much as I am with Springboot.
+
+I'll be starting my next 100 days of code ASAP and the focus will be to finish up this banking app I'm currently building and 
+further improve on what I already know and to bring my Spring knowledge up to speed, learn more about Docker, CI/CD, Maven 
+and Bash Scripting. 
+
+Thank you for reading till the end, I will see you in the next one!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
